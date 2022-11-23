@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="" method="POST" enctype="multipart/form-data" >
+        {% csrf_token %}
+
+
+        <div class="photo">
+            <label for="photo">upload</label>
+           
+          
+            <input type="file" name="photo" id="photo">
+
+        </div>
+
+        <div class="name">
+           
+            <input type="name" name="name" id="name" placeholder="name">
+        </div>
+
+        <div class="profession">
+          
+            <input type="text" name="profession" placeholder="profession">
+
+        </div>
+
+        <div class="aboutyou">
+           
+            <input type="text" class="aboutyou" id="aboutyou" name="aboutyou" placeholder="shortdescription">
+        </div>
+
+
+
+
+
+        <div class="location">
+           
+           <input type="text" name="location" placeholder="location">
+        </div>
+
+
+
+        <div class="link">
+         
+            <input type="text" name="github" placeholder="github">
+
+          
+            <input type="text" name="linkedin" id="linkedin" placeholder="linkedin">
+
+          
+            <input type="text" name="facebook" placeholder="link of facebook">
+
+
+        </div>
+
+
+        <div class="dateofbirth">
+            <input type="text" name="dateofbirth"  placeholder="dateofbirth 19/10/2022">
+        </div>
+
+
+        <div class="skill">
+
+            <input type="text" placeholder="skill1" name="skill1">
+            <input type="text" placeholder="skill2" name="skill2">
+            <input type="text" placeholder="skill3" name="skill3">
+            <input type="text" placeholder="skill4" name="skill4">
+
+
+        </div>
+
+        <div class="hobbies">
+
+            <input type="text" placeholder="hobbies1" name="hobbies1">
+            <input type="text" placeholder="hobbies2" name="hobbies2">
+            <input type="text" placeholder="hobbies3" name="hobbies3">
+            <input type="text" placeholder="hobbies4" name="hobbies4">
+
+        </div>
+
+        <div class="certificate">
+
+            <input type="text" placeholder="certificate1" name="certificate1">
+            <input type="text" placeholder="certificate2" name="certificate2">
+            <input type="text" placeholder="certificate3" name="certificate3">
+            <input type="text" placeholder="certificate4" name="certificate4">
+
+        </div>
+
+
+        <div class="education">
+            <input type="text" placeholder="12th passed from" name="education1">
+            <input type="text" placeholder="bachelors pass from" name="education2">
+            
+
+        </div>
+
+        <div class="work">
+            <input type="text" placeholder="work" name="work">
+       
+            
+
+        </div>
+
+
+<!-- projects -->
+        <div class="projects">
+
+            <input type="text" placeholder="projects" name="projects1">
+            <input type="text" placeholder="projects" name="projects2">
+            <input type="text" placeholder="projects" name="projects3">
+            <input type="text" placeholder="projects" name="projects4">
+
+
+        </div>
+
+        <div class="extra">
+            <input type="text" placeholder="extractivity" name="extra1">
+            <input type="text" placeholder="extractivity" name="extra2">
+
+        </div>
+
+
+       <button type="submit"> create resume</button>
+
+        
+
+
+
+
+
+
+
+
+
+
+    </form>
+
+    
+</body>
+</html>

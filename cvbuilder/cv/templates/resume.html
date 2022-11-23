@@ -1,0 +1,230 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/ec4aabf67e.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="/static/css/resume.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  
+
+<div class="data-upload">
+
+
+        <!-- top section -->
+        <div class="namephoto">
+
+            <!-- put image overhere -->
+            <div class="image">
+                <img src="/media/{{first.photo}}" alt="">
+            </div>
+
+
+            <!-- intro part -->
+
+            <div class="intro">
+
+                <!-- Name of the person -->
+                <h2>{{first.name}}</h2>
+                <!-- profession -->
+                <span>{{first.profession}}</span> <br>
+                <!-- small intro -->
+                <span>{{first.aboutyou}}</span>
+
+
+
+            </div>
+            
+
+        </div>
+
+        <!-- end of the name and photo -->
+
+
+        <div class="second">
+
+            <!-- put location here -->
+            <div class="location">
+                <i class="fa-solid fa-location-pin"></i> {{first.location}}
+
+
+            </div>
+
+<!-- div for the link -->
+            <div class="link">
+               <!-- github -->
+                <a href="{{first.github}}"><i class="fa-brands fa-github"></i></a>
+
+                <!-- linked in -->
+                <a href="{{first.linkedin}}"><i class="fa-brands fa-linkedin"></i></a>
+
+                <!-- facebook -->
+                <a href="{{first.facebook}}"><i class="fa-brands fa-facebook"></i></a>
+
+                
+
+            </div>
+
+
+            <!-- birthdate -->
+            <div class="birthdate">
+                <!-- put the date of the birth -->
+               <span>{{first.dateofbirth}}</span>
+
+            </div>
+
+
+
+
+
+
+
+        </div>
+        <!-- end of the second div -->
+
+
+        <!-- skillshobbiescertificate -->
+        <div class="skillshobbiescertificate">
+
+            <!-- upload the skill here -->
+            <div class="skills">
+                <h3>skill</h3>
+                
+              
+                <div class="skill1"><span class="span">1</span>{{first.skill1}}</div>
+                <div class="skill2"><span class="span">2</span>{{first.skill2}}</div>
+                <div class="skill3"><span class="span">3</span>{{first.skill3}}</div>
+                <div class="skill3"><span class="span">4</span>{{first.skill4}}</div>
+
+            </div>
+
+            <!-- end of skill -->
+
+
+            <!-- upload hobbies here -->
+            <div class="hobbies">
+                <h3>Hobbies</h3>
+                <div class="hobby1"><span class="span">1</span>{{first.hobbies1}}</div>
+                <div class="hobby2"><span class="span">2</span>{{first.hobbies2}}</div>
+                <div class="hobby3"><span class="span">3</span>{{first.hobbies3}}</div>
+                <div class="hobby4"><span class="span">4</span>{{first.hobbies4}}</div>
+
+
+            </div>
+
+            <!-- end of  the hobbies -->
+
+            <div class="certificate">
+                <h3>certificate</h3>
+        
+                <div class="certificate1"><span class="span">1</span>{{first.certificate1}}</div>
+                <div class="certificate2"><span class="span">2</span>{{first.certificate2}}</div>
+                <div class="certificate3"><span class="span">3</span>{{first.certificate3}}</div>
+                <div class="certificate4"><span class="span">4</span>{{first.certificate4}}</div>
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+        <!-- end of theskillshobbiescertificate  -->
+
+
+
+        <!-- start of the education and work -->
+
+        <div class="educationwork">
+
+            <!-- education -->
+            <div class="education"> 
+                <h3>education</h3>
+
+                <div class="12th"> <span class="span">1</span> {{first.twthpassedfrom}}</div>
+                <div class="bachelors"> <span class="span">2</span>  {{first.bachelors}}</div>
+
+            </div>
+
+
+
+            <!-- work -->
+            <div class="work">
+                <h3>work</h3>
+                <div class="work1">{{first.work}}</div>
+
+            </div>
+
+
+
+            
+            
+
+
+        </div>
+    <!-- end of the education and the work -->
+
+
+    <!-- startoftheprojectsandextra -->
+
+    <div class="projectsandextra">
+
+        <!-- upload projects -->
+        <div class="projects">
+
+            <h2>projects</h2>
+            
+            <div class="project0"><span class="span">1</span> {{first.projects1}}</div>
+            <div class="project1"><span class="span">2</span> {{first.projects2}}</div>
+            <div class="project1"><span class="span">3</span> {{first.projects3}}</div>
+            <div class="project1"><span class="span">4</span> {{first.projects4}}</div>
+
+        </div>
+
+        <!-- extra -->
+
+        <div class="extra">
+
+            <h2>extra</h2>
+            
+            <div class="extra1"><span class="span">1</span> {{first.extraactivity1}}</div>
+            <div class="extra2"><span class="span">2</span>{{first.extraactivity2}} </div>
+            
+
+        </div>
+       
+
+
+       
+
+
+    </div>
+
+
+
+
+
+
+</div>
+
+
+
+
+    
+</body>
+</html>

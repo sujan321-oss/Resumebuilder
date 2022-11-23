@@ -1,0 +1,286 @@
+.dataupload
+{
+    border: solid;
+    height: 100vh;
+    width: 100vw;
+   background-color: brown;
+   
+}
+.span
+{
+    border: solid;
+    padding: 4px;
+    background-color: rgb(167, 167, 145);
+     border-radius: 5px;
+     margin-right: 3px;
+}
+
+.namephoto
+{
+    border: solid;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(163, 141, 183);
+    border-radius: 20px;
+
+}
+.namephoto .image img
+{
+    border: solid;
+    height: 100px;
+    border-radius: 80px;
+
+}
+
+.namephoto .intro
+{
+ 
+    margin-left: 2%;
+}
+
+.second
+{
+    border: solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    height: 40px;
+    background-color: rgb(163, 141, 183);
+    border-radius: 20px;
+}
+
+.location
+
+{
+    margin-left: 2%;
+}
+
+.birthdate
+{
+    margin-right: 2%;
+}
+
+
+
+.skillshobbiescertificate
+
+{
+   
+    display: flex;
+    justify-content: space-between;
+  
+    border-radius: 20px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    border: solid;
+    background-color: rgb(192, 209, 209);
+
+
+}
+
+.skills
+{
+    border: solid;
+    margin-left: 2%;
+    background-color: rgb(163, 141, 183);
+     
+    display: flex;
+    flex-direction: column;
+
+    height: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(79, 56, 56);
+    border-radius: 20px;
+    padding: 20px;
+
+
+}
+
+.skill2,.skill3
+{
+    margin-top: 30px;
+}
+
+.hobbies 
+{
+    border: solid;
+    background-color: rgb(163, 141, 183);
+  
+    display: flex;
+    flex-direction: column;
+   
+    height: 200px;
+    color: rgb(79, 56, 56);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(79, 56, 56);
+    border-radius: 20px;
+    padding: 20px;
+
+
+
+
+}
+
+.hobby2,.hobby3,.hobby4
+{
+    margin-top: 40px;
+    margin-top: 30px;
+}
+
+.certificate
+{
+    border: solid;
+    background-color: rgb(163, 141, 183);
+   
+    display: flex;
+    flex-direction: column;
+  
+    height: 200px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.certificate1
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(79, 56, 56);
+
+}
+
+.certificate2,.certificate3,.certificate4
+{
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(79, 56, 56);
+
+    
+}
+
+.educationwork
+{
+    border: solid;
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+  
+    border-radius: 20px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    border: solid;
+    background-color: rgb(192, 209, 209);
+
+}
+
+.education {
+    border: solid;
+    border: solid;
+    background-color: rgb(163, 141, 183);
+   
+    display: flex;
+    flex-direction: column;
+   
+    height: 200px;
+    color: rgb(79, 56, 56);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(79, 56, 56);
+    border-radius: 20px;
+    padding: 20px;
+   
+}
+
+.bachelors
+{
+   margin-top: 20px;
+}
+
+.work
+{
+    border: solid;
+
+    background-color: rgb(163, 141, 183);
+   
+    display: flex;
+    flex-direction: column;
+
+    height: 200px;
+    color: rgb(79, 56, 56);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(79, 56, 56);
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+.projectsandextra
+
+{
+    border: solid;
+   
+    background-color: rgb(163, 141, 183);
+    display: flex;
+    justify-content: space-between;
+
+
+    border-radius: 20px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    border: solid;
+    background-color: rgb(192, 209, 209);
+    
+
+
+   
+   
+
+
+}
+
+
+.projects
+{
+    border: solid;
+    margin-left: 3%;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgb(163, 141, 183);
+
+
+}
+
+.project1
+{
+    margin-top: 20px;
+    
+
+}
+
+
+.extra
+{
+    border: solid;
+    margin-right: 3%;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgb(163, 141, 183);
+
+
+
+}
+
+.extra2{
+    margin-top: 30px;
+    
+}
+
+
+
+
+
+
+h3
+{
+  
+    margin-top: -10px;
+    
+}
